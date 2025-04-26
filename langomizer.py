@@ -95,7 +95,7 @@ class SimpleLanguage:
     
     def describe_grammar_basics(self):
         grammar_basics = self.generate_grammar_basics()
-        output = "There are no cases and no articles and no use of 'to be' to connect adjectives with nouns (so 'The ball is red' becomes 'Ball red')\n"
+        output = "There are no cases, no conjugation and no articles and no use of 'to be' to connect adjectives with nouns (so 'The ball is red' becomes 'Ball red')\n"
         output += f"The basic word order is '{grammar_basics['word_order']}'\n"
         output += f"Plural ending is always '{grammar_basics['plural_ending']}'\n"
         output += f"The ending of a verb is always '{grammar_basics['verb_ending']}'\n"
